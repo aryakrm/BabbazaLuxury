@@ -6,7 +6,7 @@ function Header() {
   return (
     <header>
       <nav>
-        <h1>Babbaza Luxury Logo</h1>
+        <img src="/babbazaLogo.png" alt="Babbaza logo" />
         <ul className="nav-menu">
           <li>
             <Link to={"home"}>Home</Link>
@@ -18,6 +18,7 @@ function Header() {
             <Link to={"contact"}>Contact</Link>
           </li>
         </ul>
+        <img className="versBar" src="/versBar.png" alt="versaceBar" />
       </nav>
     </header>
   );

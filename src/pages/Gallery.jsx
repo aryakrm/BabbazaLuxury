@@ -1,7 +1,12 @@
 import React from "react";
+import Grid from "../components/Grid/Grid";
 
 function Gallery() {
-  return <div>Gallery</div>;
+  return (
+    <body>
+      <Grid />
+    </body>
+  );
 }
 
 export default Gallery;

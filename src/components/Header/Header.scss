@@ -3,19 +3,20 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
   position: sticky;
   top: 0;
+  z-index: 5;
   nav {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem 0;
-    border-bottom: 1px groove #daa520;
-    h1 {
-      font-size: 2rem;
-      font-weight: 600;
+    padding: 1.5rem 0 0 0;
+    border-bottom: 1px groove #dfbd5e;
+    img {
+      width: 10rem;
     }
     .nav-menu {
       display: flex;
@@ -28,7 +29,7 @@ header {
         a {
           display: inline-block;
           position: relative;
-          color: #ffd700;
+          color: #dfbd5e;
           text-decoration: none;
           font-size: 1.2rem;
           font-weight: 400;
@@ -51,6 +52,10 @@ header {
           }
         }
       }
+    }
+    .versBar {
+      width: 100%;
+      margin-bottom: 0.2rem;
     }
   }
 }

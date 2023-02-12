@@ -1,6 +1,5 @@
 import React from "react";
 import "./HomeSec1.scss";
-import ThreeObj from "../ThreeObj/ThreeObj";
 
 function HomeSec1() {
   return (
@@ -15,7 +14,6 @@ function HomeSec1() {
           of the best designers in the world.
         </p>
       </div>
-      {/* <ThreeObj /> */}
     </section>
   );
 }

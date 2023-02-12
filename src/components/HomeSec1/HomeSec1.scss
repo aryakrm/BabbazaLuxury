@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 5rem;
+  margin: 5rem 15%;
   text-align: center;
   color: #dfbd5e;
   background-color: rgba(0, 0, 0, 0.7);
@@ -11,5 +11,11 @@
   border-radius: 20px;
   p {
     font-weight: 900;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .HomeSec1 {
+    margin: 1rem 1rem;
   }
 }

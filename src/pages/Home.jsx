@@ -10,9 +10,7 @@ function Home() {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <video autoPlay muted loop style={{ width: "100%" }}>
-        <source src="/assets/introVideo.mp4" type="video/mp4" />
-      </video>
+      <img className="bstore" src="/assets/bstore.jpg" alt="babbaza" />
       <HomeSec1 />
     </motion.body>
   );
